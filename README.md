@@ -1,8 +1,8 @@
 # Trabajo Final Administracion de Sistemas Avanzada 2026
 
-**Asignatura:** Administración de Sistemas Avanzada
-**Alumno:** Lorenzo Moiola 
-**Proyecto:** Kubernetes Alta disponibilidad DNS 
+* **Asignatura:** Administración de Sistemas Avanzada
+* **Alumno:** Lorenzo Moiola 
+* **Proyecto:** Kubernetes Alta disponibilidad DNS 
 
 ---
 
