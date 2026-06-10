@@ -1,0 +1,21 @@
+# Archivo agregado siguiendo buenas practicas para eliminar backups/logs y archivos temporales creados durante la ejecucion del programa localmente
+# Backups generados por scripts
+backups/*.tar.gz
+backups/*.zip
+
+# Logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+
+# Vim
+*.swp
+
+# VSCode
+.vscode/
+
+# Linux
+.DS_Store
