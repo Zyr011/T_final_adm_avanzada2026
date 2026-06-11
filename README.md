@@ -1,3 +1,4 @@
+![Imagen de dos dinos conectados por flecha de infinidad](https://github.com/Zyr011/T_final_adm_avanzada2026/blob/main/docs/dino_is_not_one.png)
 # Trabajo Final - Administración de Sistemas Avanzada 2026
 
 - **Asignatura:** Administración de Sistemas Avanzada
