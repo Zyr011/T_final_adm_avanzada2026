@@ -109,7 +109,8 @@ dns-ha-kubernetes/
 │   ├── destroy.sh
 │   ├── backup-dns.sh
 │   ├── dns-stress.sh
-│   └── test-ha.sh
+│   ├── prueba-ha-pod.sh
+│   └── prueba-ha-worker.sh
 │
 ├── backups/
 │   └── .gitkeep
@@ -449,7 +450,7 @@ Funciones esperadas:
 - guardar estado básico del clúster;
 - generar un archivo comprimido de backup;
 - registrar la ejecución en un log.
-
+- generar tarea cron para recoleccion de datos 
 ---
 
 ### 13.4 `dns-stress.sh`
