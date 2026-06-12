@@ -109,9 +109,7 @@ dns-ha-kubernetes/
 │   ├── deploy.sh
 │   ├── destroy.sh
 │   ├── backup-dns.sh
-│   ├── dns-stress.sh
-│   ├── prueba-ha-pod.sh
-│   └── prueba-ha-worker.sh
+│   └── dns-stress.sh
 │
 ├── backups/
 │   └── .gitkeep
@@ -464,20 +462,6 @@ Funciones esperadas:
 - permitir definir host, puerto, dominio y cantidad de consultas;
 - mostrar cantidad de consultas realizadas;
 - detectar consultas fallidas.
-
----
-
-### 13.5 `prueba-ha.pod.sh / prueba-ha-worker.sh`
-
-Script encargado de automatizar pruebas de alta disponibilidad.
-
-Funciones esperadas:
-
-- simular caída de un Pod BIND9;
-- verificar recreación del Pod;
-- simular caída de un Worker;
-- validar que el servicio continúe disponible mientras exista una réplica activa;
-- restaurar el entorno luego de la prueba.
 
 ---
 
