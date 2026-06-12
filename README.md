@@ -434,6 +434,26 @@ Funciones esperadas:
 - limpiar recursos asociados al laboratorio;
 - mostrar el estado final de los contenedores Podman.
 
+La eliminación puede ser manual
+
+Eliminar cluster
+
+```bash
+kind delete cluster --name dns-ha
+```
+Eliminar pod
+
+```bash
+kubectl get pods
+kubectl delete pod 'pod_name' -n dns-ha
+```
+Parar un nodo worker
+
+```bash
+kubectl get nodes
+podman stop 'worker_name'
+```
+
 ---
 
 ### 13.3 `backup-dns.sh`
