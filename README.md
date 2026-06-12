@@ -444,7 +444,7 @@ kind delete cluster --name dns-ha
 Eliminar pod
 
 ```bash
-kubectl get pods
+kubectl get pods -n dns-ha
 kubectl delete pod 'pod_name' -n dns-ha
 ```
 Parar un nodo worker
